@@ -1,0 +1,25 @@
+* { 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messages {
+    height: 400px;
+    border: 4px inset;
+    width: 100%;
+    overflow: auto;
+}
+
+.message {
+    font-size: 24px;
+}
+
+input[type="text"], button {
+    font-size: 24px;
+}
